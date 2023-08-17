@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .container{
+    width: 100%;
+    height: 100%;
+ }
+ .genel{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+ }
+
+.gamePlace{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 83%;
+    height: 50%;
+}
+.gamePlace img{
+    margin: 30px;
+    height: 230;
+    width: 230px;
+}
+a{
+    text-align: center;
+}
+button{
+    font-size: large;
+    background-color: aliceblue;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 15px auto;
+}
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    height: fit-content;
+}
